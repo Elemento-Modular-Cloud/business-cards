@@ -1,0 +1,23 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Maligno;Salvatore;;;
+FN:Salvatore Maligno
+ORG:AMlab;
+TITLE:Founder & CEO;
+TEL;type=CELL;type=VOICE;type=pref:+39 348 2268331
+TEL;type=office;type=VOICE;type=pref:+39 0171 301737
+EMAIL;type=INTERNET;type=pref:s.maligno@am-lab.it
+EMAIL;type=INTERNET;type=pref:contact@am-lab.it
+EMAIL;type=INTERNET;type=pref:balma-srl@pec.it
+item1.URL:https://www.am-lab.it/
+item1.X-ABLabel:AMlab website
+
+item2.URL:IT04041410046
+item2.X-ABLabel:Partita IVA
+
+item3.URL:A4707H7
+item3.X-ABLabel:SDI
+
+item4.ADR;type=office;type=pref:;;Viale degli Angeli 9;Cuneo;CN;12100;Italia
+item4.X-ABADR:it
+END:VCARD

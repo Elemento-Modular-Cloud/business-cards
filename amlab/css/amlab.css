@@ -1,0 +1,114 @@
+:root {
+    --accent-color: whitesmoke;
+    --medium-color: rgb(113, 113, 113);
+    --dark-color: #000000;
+
+    --card-height: 27vmax;
+    --card-width: 45vmax;
+    --card-hover-padding: 10vmax;
+    --logo-height: 23vmax;
+    --logo-front-shift: 27%;
+    --logo-special-shift: 85%;
+    --icon-animation-range: 2%;
+
+    --logo-width: var(--logo-height);
+    --logo-top: calc((var(--card-height) - var(--logo-height)) / 2);
+    --logo-border-width: calc(var(--logo-height) * 0.07);
+    --logo-bg-height: calc(var(--logo-height) + var(--logo-border-width));
+    --logo-bg-width: calc(var(--logo-width) + var(--logo-border-width));
+    --logo-bg-top: calc((var(--card-height) - var(--logo-bg-height)) / 2);
+    --logo-back-shift: calc(100% - var(--logo-front-shift));
+    --button-size: calc(var(--card-width) / 7);
+    --title-size: calc(var(--card-width) / 10);
+    --data-size: calc(var(--card-width) / 15);
+    --subtitle-size: calc(var(--card-width) / 25);
+    --small-size: calc(var(--card-width) / 35);
+    --text-width: calc(var(--card-width) - var(--logo-front-shift) - var(--logo-width) / 2 - var(--logo-border-width) / 2);
+}
+
+body {
+    background: var(--medium-color);
+    background-image: url("../img/background blur.jpg");
+    background-size: cover;
+}
+
+/* .card {
+    animation: none;
+    transition: none;
+}
+
+.container:hover .card, .checkbox:checked + .card {
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+    animation: none;
+} */
+
+.front {
+    background: none;
+    background-color: var(--accent-color);
+}
+
+.logo::before {
+    /* display: none; */
+}
+
+.logo {
+    content: '';
+    height: var(--logo-height);
+    width: var(--logo-width);
+    position: absolute;
+    top: var(--logo-top);
+    left: var(--logo-special-shift);
+    transform: translateX(-50%);
+    background-color: var(--dark-color);
+    mask-size: fill;
+    mask-image: url(../img/logo.svg);
+    mask-position: center top;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: fill;
+    -webkit-mask-image: url(../img/logo.svg);
+    -webkit-mask-position: center top;
+    -webkit-mask-repeat: no-repeat;
+}
+
+.logo::after {
+    display: none;
+}
+
+.back {
+    background: none;
+    background-color: var(--accent-color);
+}
+
+.downloader {
+    background-color: none;
+}
+
+.data {
+    top: calc(-1 * var(--subtitle-size));
+}
+
+.name {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    color: var(--dark-color);
+}
+
+.function {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: lighter;
+    color: var(--medium-color);
+}
+
+.downloader:hover {
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.downloader:hover::after {
+    cursor: pointer;
+    background-color: var(--medium-color);
+}
