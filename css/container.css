@@ -6,11 +6,12 @@ html {
     position: absolute;
     display: grid;
     grid-template-columns: auto auto;
-    top: 0;
+    top: 50%;
     left: 0;
     width: 100vw;
     height: auto;
-    min-height: 100vh;
+    min-height: fit-content;
+    transform: translateY(-50%);
 }
 
 @media (orientation: portrait) {
