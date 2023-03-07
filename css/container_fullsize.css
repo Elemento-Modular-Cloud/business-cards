@@ -1,0 +1,11 @@
+.supercontainer {
+    width: 100vw !important;
+    margin: auto;
+    grid-template-columns: none;
+    grid-template-columns: 100%;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
