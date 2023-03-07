@@ -1,6 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("../img/background blur.jpg");
-    background-size: cover;
+    background-image: url(../img/gplaypattern.jpg);
+    background-repeat: repeat;
 }

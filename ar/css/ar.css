@@ -30,8 +30,9 @@
 body {
     /* background: var(--medium-color); */
     /* background-color: transparent; */
-    background-image: url(../img/gplaypattern.jpg);
-    background-repeat: repeat;
+    background-color: transparent;
+    /* background-image: url(../img/gplaypattern.jpg);
+    background-repeat: repeat; */
 }
 
 /* .card {
