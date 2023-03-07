@@ -9,7 +9,7 @@
     --logo-height: 23vmax;
     --logo-front-shift: 27%;
     --background-cut-position: 80%;
-    --logo-special-shift: 85%;
+    --logo-special-shift: 50%;
     --icon-animation-range: 2%;
 
     --logo-width: var(--logo-height);
@@ -51,7 +51,9 @@ body {
     background: none;
     background-color: var(--accent-color);
 }
-
+.logo::before {
+    display: none;
+}
 .logo {
     content: '';
     height: var(--logo-height);
@@ -59,14 +61,14 @@ body {
     position: absolute;
     top: var(--logo-top);
     left: var(--logo-special-shift);
-    transform: translateX(-50%);
-    background-color: var(--dark-color);
+    transform: translateX(-50%) translateY(25%);
+    background-color: var(--accent-color);
     mask-size: fill;
-    mask-image: url(../img/logo.svg);
+    mask-image: url(../img/LogoCuneo_Def_Clean.svg);
     mask-position: center top;
     mask-repeat: no-repeat;
     -webkit-mask-size: fill;
-    -webkit-mask-image: url(../img/logo.svg);
+    -webkit-mask-image: url(../img/LogoCuneo_Def_Clean.svg);
     -webkit-mask-position: center top;
     -webkit-mask-repeat: no-repeat;
 }
