@@ -8,9 +8,11 @@ TEL;type=CELL;type=VOICE;type=pref:+39 393 911 4123
 TEL;type=Office;type=VOICE;type=pref:+39 0171 696911
 EMAIL;type=INTERNET;type=pref:matteo@reverdito.com
 item1.URL:https://www.reverdito.com
-item1.X-ABLabel:Sito web
-item2.URL;type=facebook:https://www.facebook.com/studioreverdito/
-item2.X-ABLabel:Facebook
+item1.X-ABLabel:Sito web studio
+item2.URL:https://www.accademiaallineatori.it
+item2.X-ABLabel:Sito web Academy
+item3.URL;type=facebook:https://www.facebook.com/studioreverdito/
+item3.X-ABLabel:Facebook
 item4.ADR;type=OFFICE;type=pref:;;Corso Nizza 6;Cuneo;CN;12100;Italia
 item4.X-ABADR:it
 END:VCARD
