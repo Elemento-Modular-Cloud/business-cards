@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Sannai;Giulia;;;
+FN:Giulia Sannai
+ORG:Elemento Modular Cloud;
+TITLE:Social Media Manager;
+EMAIL;type=INTERNET;type=pref:gsannai@elemento.cloud
+item1.URL:https://www.elemento.cloud/
+item1.X-ABLabel:Elemento Website
+item4.ADR;type=OFFICE;type=pref:;;Via Virginio Allione 2;Cuneo;CN;12100;Italia
+item4.X-ABADR:it
+END:VCARD
