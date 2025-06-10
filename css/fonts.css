@@ -1,7 +1,7 @@
 /*url('https://fonts.googleapis.com/css?family=Muli&display=swap');*/
 /*url('https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap');*/
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('./opensans.css');
 
 @font-face {
     font-family: 'herobold';
@@ -25,6 +25,22 @@
     font-family: 'heroregular';
     src: url('../fonts/hero-regular-webfont.woff2') format('woff2'),
         url('../fonts/hero-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'redhatregular';
+    src: url('../fonts/RedHatDisplay-VariableFont_wght.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'redhatitalic';
+    src: url('../fonts/RedHatDisplay-Italic-VariableFont_wght.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
