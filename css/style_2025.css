@@ -269,12 +269,12 @@ body {
 
 .spacer50 {
     padding: 0;
-    height: 5vh;
+    height: 3vmin;
 }
 
 .spacer30 {
     padding: 0;
-    height: 3vh;
+    height: 1.7vmin;
 }
 
 .name, .function, .phone, .email, .linkedin, .website, .address, .citation, .signature {
@@ -289,11 +289,7 @@ body {
 .name {
     text-align: left;
     font-weight: 800;
-}
-
-.function {
-    text-align: right;
-    font-weight: 800;
+    font-size: calc(var(--data-size) * 1.5);
 }
 
 .function, .phone, .email, .linkedin, .website, .address, .citation, .signature {
@@ -301,6 +297,12 @@ body {
     height: var(--small-size);
     line-height: var(--small-size);
     font-size: var(--small-size);
+}
+
+.function {
+    text-align: right;
+    font-weight: 800;
+    font-size: calc(var(--data-size) * 1.5);
 }
 
 .citation {
@@ -317,12 +319,6 @@ body {
     text-align: right;
 }
 
-.function {
-    font-family: 'redhatregular';
-    height: var(--subtitle-size);
-    line-height: var(--subtitle-size);
-    font-size: var(--subtitle-size);
-}
 .picture {
     position: absolute;
     top: 45%;
