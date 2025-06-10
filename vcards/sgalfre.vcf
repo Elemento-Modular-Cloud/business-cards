@@ -1,11 +1,11 @@
 BEGIN:VCARD
 VERSION:3.0
-N:Benzi;Luca;;;
-FN:Luca Benzi
+N:Galfré;Stefano;;;
+FN:Stefano Galfré
 ORG:Elemento Modular Cloud;
 TITLE:co-CSO;
-TEL;type=CELL;type=VOICE;type=pref:+39 328 4693051
-EMAIL;type=INTERNET;type=pref:lbenzi@elemento.cloud
+TEL;type=CELL;type=VOICE;type=pref:+39 335 5351591
+EMAIL;type=INTERNET;type=pref:sgalfre@elemento.cloud
 item1.URL:https://www.elemento.cloud/
 item1.X-ABLabel:Elemento Website
 item4.ADR;type=OFFICE;type=pref:;;Via Virginio Allione 2;Cuneo;CN;12100;Italia
