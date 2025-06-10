@@ -269,12 +269,12 @@ body {
 
 .spacer50 {
     padding: 0;
-    height: 50px;
+    height: 5vh;
 }
 
 .spacer30 {
     padding: 0;
-    height: 30px;
+    height: 3vh;
 }
 
 .name, .function, .phone, .email, .linkedin, .website, .address, .citation, .signature {
